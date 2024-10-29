@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #0d1117;
+    color: #c9d1d9;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #161b22;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #58a6ff;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #8b949e;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 1rem;
+}
+
+nav a {
+    color: #c9d1d9;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    margin: 2rem auto;
+    padding: 1rem;
+    max-width: 800px;
+}
+
+h2 {
+    color: #58a6ff;
+    margin-bottom: 1rem;
+}
+
+.project-card {
+    background-color: #21262d;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.skill {
+    background-color: #21262d;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 8px;
+    width: 80px;
+}
+
+.skill img {
+    width: 40px;
+    margin-bottom: 0.5rem;
+}
+
+form {
+    background-color: #21262d;
+    padding: 1.5rem;
+    border-radius: 8px;
+    max-width: 500px;
+    margin: auto;
+    color: #c9d1d9;
+}
+
+form label {
+    margin-top: 1rem;
+    display: block;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    background-color: #0d1117;
+    border: 1px solid #30363d;
+    border-radius: 5px;
+    color: #c9d1d9;
+}
+
+form button {
+    background-color: #58a6ff;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #1f6feb;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #161b22;
+    color: #8b949e;
+    font-size: 0.9rem;
+}
